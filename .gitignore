@@ -1,0 +1,11 @@
+# Ignore credentials header files anywhere in the repository
+**/credentials.h
+credentials.h
+
+.venv
+# macOS / Python junk
+.DS_Store
+__pycache__/
+
+# Streamlit secrets
+**/.streamlit/secrets.toml
